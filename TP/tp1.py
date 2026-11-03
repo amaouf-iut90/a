@@ -135,10 +135,7 @@ print(nombre_de_chiffres(2026))
 print(nombre_de_chiffres(7))
 print(nombre_de_chiffres(10 ** 60))
 
-
-#   ==================
 # EXERCICE 5 
-#   ==================
 
 def heron(a):
     if a < 0:

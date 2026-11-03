@@ -1,14 +1,12 @@
- =
+ 
 # Exercice 1
- =
 def est_parfait(n):
     return sum(d for d in range(1, n) if n % d == 0) == n
 
 print([n for n in range(2, 10000) if est_parfait(n)])
 
- =
+ 
 # Exercice 2
- =
 def pgcd_naif(a, b):
     """PGCD par essai de tous les diviseurs possibles."""
     meilleur = 1
@@ -25,9 +23,8 @@ def pgcd(a, b):
 
 print(pgcd_naif(1071, 462), pgcd(1071, 462))
 
- =
+ 
 # Exercice 3
- =
 def est_premier_naif(n):
     """Teste la primalité en essayant tous les diviseurs jusqu'à n - 1."""
     if n < 2:

@@ -45,4 +45,4 @@ Conclusion :
 Ce projet illustre qu'en analyse numérique, la théorie mathématique se heurte aux limites matérielles de la machine. Augmenter la complexité d'un calcul pour rechercher plus de précision peut aboutir à un résultat totalement inexploitable.
 
 Utilisation de l'intelligence artificielle
-Dans le cadre de ce projet, j'ai utilisé un assistant IA pour rédiger une partie du code et corriger des erreurs de syntaxe. J'ai cependant relu l'intégralité du code final et j'ai personnellement vérifié chaque résultat affiché pour m'assurer de la validité de l'expérience et de mes conclusions.
+Dans le cadre de ce projet, j'ai utilisé un assistant IA pour rédiger une partie du code et corriger des erreurs de syntaxe. J'ai cependant relu l'intégralité du code final et j'ai personnellement vérifié chaque résultat affiché pour m'assurer de la validité de l'expérience et de mes conclusions. Je l'ai aussi utilisé pour régler le problème de matplotlib bloqué sur ma machine.

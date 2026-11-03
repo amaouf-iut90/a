@@ -12,9 +12,8 @@ Ce dépôt est organisé en deux répertoires distincts :
 ---
 
 ## Le projet : Limites de l'interpolation polynomiale
-
+définition: L'interpolation polynomiale est une méthode mathématique consistant à construire une courbe (un polynôme) qui passe exactement par un ensemble de points donnés. Elle permet d'estimer des valeurs situées entre ces points connus.
 Ce projet teste l'hypothèse selon laquelle augmenter le degré d'un polynôme d'interpolation améliore systématiquement la précision de la courbe.
-
 Pour tester cela, le programme utilise la fonction de Runge et cherche à construire un polynôme qui passe exactement par un certain nombre de ses points. La méthode utilisée repose sur la résolution de systèmes avec le Pivot de Gauss, abordée en TP.
 
 ### Comment lancer le code
@@ -39,10 +38,10 @@ Imposer à un polynôme de degré élevé de passer par des points répartis uni
 2. La limite informatique (précision des flottants)
 Le programme construit une matrice pour résoudre le système. Le script calcule et affiche le conditionnement de cette matrice. Pour 7 points, le conditionnement reste bas. Pour 15 points, ce nombre devient extrêmement grand.
 
-L'ordinateur stocke les nombres avec une précision limitée. Un conditionnement élevé signifie que les erreurs d'arrondi effectuées lors des calculs sont amplifiées de manière exponentielle. La courbe finale est donc faussée par l'accumulation de ces imprécisions numériques.
+L'ordinateur stocke les nombres avec une précision limitée. Un conditionnement élevé signifie que les erreurs d'arrondi effectuées lors des calculs sont amplifiées de manière exponentielle. La courbe finale est donc faussée par l'accumulation de ces imprécisions.
 
 Conclusion :
-Ce projet illustre qu'en analyse numérique, la théorie mathématique se heurte aux limites matérielles de la machine. Augmenter la complexité d'un calcul pour rechercher plus de précision peut aboutir à un résultat totalement inexploitable.
+Ce projet illustre qu'en analyse numérique, la théorie mathématique se confronte aux limites matérielles de la machine. Augmenter la complexité d'un calcul pour rechercher plus de précision peut aboutir à un résultat totalement inexploitable.
 
 Utilisation de l'intelligence artificielle
 Dans le cadre de ce projet, j'ai utilisé un assistant IA pour rédiger une partie du code et corriger des erreurs de syntaxe. J'ai cependant relu l'intégralité du code final et j'ai personnellement vérifié chaque résultat affiché pour m'assurer de la validité de l'expérience et de mes conclusions. Je l'ai aussi utilisé pour régler le problème de matplotlib bloqué sur ma machine.

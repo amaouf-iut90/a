@@ -151,9 +151,9 @@ A_np = np.array([[1.0, 2.0, 2.0],
 b_np = np.array([2.0, -1.0, 8.0])
 
 print(A_np.shape)
-print(A_np.T)          # transposée
-print(A_np @ A_np)     # produit matriciel
-print(A_np * A_np)     # produit terme à terme : ce n'est PAS le produit matriciel
+print(A_np.T)         
+print(A_np @ A_np)     
+print(A_np * A_np)     
 
 n = 120
 A = matrice_aleatoire(n)
@@ -356,7 +356,6 @@ for angle in (np.pi / 6, np.pi / 3, np.pi / 2):
 plt.axis("equal")
 plt.legend()
 plt.title("Une matrice fait tourner une figure")
-# plt.show()
 
 gauche = rotation(np.pi / 3) @ rotation(np.pi / 6)
 droite = rotation(np.pi / 2)
@@ -431,7 +430,6 @@ print(determinant([[1, 2], [2, 4]]))
 # EXERCICE 8 
 
 
-# 8.1 Hilbert vaincue avec des fractions
 from fractions import Fraction
 
 def hilbert_exacte(n):
@@ -477,7 +475,7 @@ print(all(v == 1 for v in x_exact))
 
 # EXERCICE 9 
 
-# 9.1 L'ordre des opérations
+# 9.1
 def translation(tx, ty):
     return np.array([[1.0, 0.0, tx],
                      [0.0, 1.0, ty],

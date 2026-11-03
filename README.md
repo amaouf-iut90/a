@@ -1,14 +1,12 @@
-# Outils fondamentaux
-
 # Outils Fondamentaux - Projet de Fin de Module
 
-Nom : [Votre Nom]
-Groupe : [Votre Groupe]
+Nom : MAOUF Amine
+Groupe : C1
 
 ## Organisation du dépôt
 
 Ce dépôt est organisé en deux répertoires distincts :
-* tp/ : Contient mes exercices et recherches effectués pendant les séances de TP.
+* TP/ : Contient mes exercices et recherches effectués pendant les séances de TP.
 * projet/ : Contient mon projet personnel.
 
 ---
@@ -45,3 +43,6 @@ L'ordinateur stocke les nombres avec une précision limitée. Un conditionnement
 
 Conclusion :
 Ce projet illustre qu'en analyse numérique, la théorie mathématique se heurte aux limites matérielles de la machine. Augmenter la complexité d'un calcul pour rechercher plus de précision peut aboutir à un résultat totalement inexploitable.
+
+Utilisation de l'intelligence artificielle
+Dans le cadre de ce projet, j'ai utilisé un assistant IA pour rédiger une partie du code et corriger des erreurs de syntaxe. J'ai cependant relu l'intégralité du code final et j'ai personnellement vérifié chaque résultat affiché pour m'assurer de la validité de l'expérience et de mes conclusions.
